@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia de Jiu-Jitsu e Judô</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <img src="assets/495334105_18093849868603931_668979407470756618_n.jpg" width="70" height="70" alt="Logo da Academia">
+                    </div>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#professores">Professores</a></li>
+                        <li><a href="#modalidades">Modalidades</a></li>
+                        <li><a href="#horarios">Horários</a></li>
+                        <li><a href="#valores">Valores</a></li>
+                        <li><a href="#campeonato">Conquistas</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                    <button class="menu-toggle" id="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <!-- Vídeo de fundo (descomente e adicione o caminho do seu vídeo) -->
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="assets/Open Salvador Fall 2025🏢 @marcos_andrade.eng 👨_⚕️ @eneiasbraga 👩_⚕️ @eduardanalilan_fisio 🏋️.mp4" type="video/mp4">
+        </video>
+        
+        <!-- Imagem de fundo (descomente e adicione o caminho da sua imagem) -->
+        <!-- <div class="hero-image" style="background-image: url('images/hero-background.jpg');"></div> -->
+        
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Jiu-Jitsu & Judô</h1>
+            <p class="hero-subtitle">Disciplina, Respeito e Excelência</p>
+            <a href="#contato" class="btn btn-primary">Comece Agora</a>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre Nossa Academia</h2>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p>Bem-vindo à nossa academia, um espaço dedicado ao desenvolvimento físico e mental através das artes marciais. Com anos de experiência, oferecemos treinamento de alta qualidade em Jiu-Jitsu e Judô.</p>
+                    <p>Nossa missão é formar atletas completos, desenvolvendo não apenas técnicas, mas também valores como disciplina, respeito, humildade e perseverança.</p>
+                    <p>Contamos com instrutores qualificados e uma estrutura completa para proporcionar a melhor experiência de treino.</p>
+                </div>
+                <div class="sobre-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">🥋</div>
+                        <h3>Instrutores Qualificados</h3>
+                        <p>Professores certificados e experientes</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏆</div>
+                        <h3>Excelência no Ensino</h3>
+                        <p>Metodologia comprovada e eficaz</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">👥</div>
+                        <h3>Comunidade Unida</h3>
+                        <p>Ambiente acolhedor e motivador</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professores Section -->
+    <section id="professores" class="professores">
+        <div class="container">
+            <h2 class="section-title">Nossos Professores</h2>
+            <div class="professores-carousel-wrapper">
+                <button class="carousel-btn carousel-btn-prev" id="prevBtn" aria-label="Anterior">
+                    <span>‹</span>
+                </button>
+                <div class="professores-carousel" id="professoresCarousel">
+                    <div class="professor-card">
+                        <div class="professor-image">
+                            <img src="assets/Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos.🙏🔥.jpg" alt="Professor de Jiu-Jitsu" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23DC143C%22 width=%22200%22 height=%22200%22/%3E%3Ctext fill=%22%23fff%22 font-family=%22Arial%22 font-size=%2214%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EProfessor%3C/text%3E%3C/svg%3E'">
+                        </div>
+                        <div class="professor-info">
+                            <h3>Hogarth Filipe</h3>
+                            <p class="professor-faixa">Faixa Preta</p>
+                            <p class="professor-descricao">Experiência de mais de 5 anos ensinando Jiu-Jitsu. Campeão em diversas competições regionais e nacionais.</p>
+                        </div>
+                    </div>
+                    <div class="professor-card">
+                        <div class="professor-image">
+                            <img src="assets/519424177_17980529186849770_8554476526437491802_n.webp" alt="Professor de Jiu-Jitsu" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23DC143C%22 width=%22200%22 height=%22200%22/%3E%3Ctext fill=%22%23fff%22 font-family=%22Arial%22 font-size=%2214%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EProfessor%3C/text%3E%3C/svg%3E'">
+                        </div>
+                        <div class="professor-info">
+                            <h3>Galeno Aguiar</h3>
+                            <p class="professor-faixa">Faixa Preta</p>
+                            <p class="professor-descricao">Instrutor dedicado com foco no desenvolvimento técnico e pessoal dos alunos. Múltiplas conquistas em competições.</p>
+                        </div>
+                    </div>
+                    <div class="professor-card">
+                        <div class="professor-image">
+                            <img src="assets/💜.webp" alt="Instrutora de Jiu-Jitsu" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23DC143C%22 width=%22200%22 height=%22200%22/%3E%3Ctext fill=%22%23fff%22 font-family=%22Arial%22 font-size=%2214%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EInstrutora%3C/text%3E%3C/svg%3E'">
+                        </div>
+                        <div class="professor-info">
+                            <h3>Clara Pires</h3>
+                            <p class="professor-faixa">Instrutora</p>
+                            <p class="professor-descricao">Instrutora dedicada ao ensino do Jiu-Jitsu, promovendo um ambiente acolhedor e motivador para todos os alunos.</p>
+                        </div>
+                    </div>
+                    <div class="professor-card">
+                        <div class="professor-image">
+                            <img src="assets/Pensar que, há alguns anos, eu via o judô de uma forma limitada. Buscava apenas a minha ascensão.jpg" alt="Professor de Judô" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23000%22 width=%22200%22 height=%22200%22/%3E%3Ctext fill=%22%23fff%22 font-family=%22Arial%22 font-size=%2214%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EProfessor%3C/text%3E%3C/svg%3E'">
+                        </div>
+                        <div class="professor-info">
+                            <h3>Matheus Doria</h3>
+                            <p class="professor-faixa">Faixa Preta</p>
+                            <p class="professor-descricao">Instrutor certificado com ampla experiência em Judô. Dedicado ao desenvolvimento técnico e pessoal dos alunos.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn carousel-btn-next" id="nextBtn" aria-label="Próximo">
+                    <span>›</span>
+                </button>
+                <div class="carousel-indicators" id="carouselIndicators"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vídeo Campeonato Section -->
+    <section id="campeonato" class="campeonato">
+        <div class="container">
+            <h2 class="section-title">Nossas Conquistas</h2>
+            <div class="campeonato-content">
+                <div class="campeonato-info">
+                    <h3>Campeonato em Salvador</h3>
+                    <p>Confira o vídeo da nossa equipe competindo em Salvador. Um momento marcante que mostra a dedicação e o espírito competitivo dos nossos atletas.</p>
+                    <p class="campeonato-destaque">Orgulho em representar nossa academia!</p>
+                </div>
+                <div class="campeonato-video">
+                    <!-- Substitua o src pelo link do seu vídeo do YouTube ou caminho do arquivo local -->
+                    <div class="video-wrapper">
+                        <!-- Opção 1: Vídeo do YouTube (recomendado) -->
+                        <!-- <iframe 
+                            id="campeonatoVideo"
+                            src="assets/O primeiro dia do Salvador Open Spring. Um dia marcado por muita união, respeito e espírito espo.mp4" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                            loading="lazy">
+                        </iframe> -->
+                        
+                        <!-- Opção 2: Vídeo local (descomente e use se preferir) -->
+                        
+                        <video controls poster="images/campeonato-thumb.jpg">
+                            <source src="assets/O primeiro dia do Salvador Open Spring. Um dia marcado por muita união, respeito e espírito espo.mp4" type="video/mp4">
+                            Seu navegador não suporta vídeos HTML5.
+                        </video>
+                       
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modalidades Section -->
+    <section id="modalidades" class="modalidades">
+        <div class="container">
+            <h2 class="section-title">Modalidades</h2>
+            <div class="modalidades-grid">
+                <div class="modalidade-card">
+                    <div class="modalidade-header">
+                        <h3>Jiu-Jitsu</h3>
+                    </div>
+                    <div class="modalidade-body">
+                        <p>Arte marcial brasileira focada em técnicas de luta no chão, controle e finalização. Ideal para defesa pessoal e desenvolvimento físico completo.</p>
+                        <ul class="modalidade-beneficios">
+                            <li>✓ Técnicas de finalização</li>
+                            <li>✓ Defesa pessoal</li>
+                            <li>✓ Condicionamento físico</li>
+                            <li>✓ Flexibilidade e força</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modalidade-card">
+                    <div class="modalidade-header">
+                        <h3>Judô</h3>
+                    </div>
+                    <div class="modalidade-body">
+                        <p>Arte marcial japonesa que utiliza projeções, imobilizações e técnicas de solo. Desenvolve coordenação, equilíbrio e disciplina mental.</p>
+                        <ul class="modalidade-beneficios">
+                            <li>✓ Técnicas de projeção</li>
+                            <li>✓ Imobilizações</li>
+                            <li>✓ Coordenação motora</li>
+                            <li>✓ Disciplina e respeito</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Horários Section -->
+    <section id="horarios" class="horarios">
+        <div class="container">
+            <h2 class="section-title">Horários de Treino</h2>
+            <div class="horarios-content">
+                <div class="horario-tabela">
+                    <div class="horario-dia">
+                        <h3>Segunda-feira</h3>
+                        <div class="horario-aulas">
+                            <span class="horario-item">Jiu-Jitsu: 06:10 | 12:15 | 16:00 | 19:40</span>
+                            <span class="horario-item horario-kids">Jiu-Jitsu Kids: 10:00</span>
+                            <span class="horario-item">Judô: 18:30</span>
+                        </div>
+                    </div>
+                    <div class="horario-dia">
+                        <h3>Terça-feira</h3>
+                        <div class="horario-aulas">
+                            <span class="horario-item horario-destaque">Treino Feminino: 18:00</span>
+                        </div>
+                    </div>
+                    <div class="horario-dia">
+                        <h3>Quarta-feira</h3>
+                        <div class="horario-aulas">
+                            <span class="horario-item">Jiu-Jitsu: 06:10 | 12:15 | 16:00 | 19:40</span>
+                            <span class="horario-item horario-kids">Jiu-Jitsu Kids: 10:00</span>
+                            <span class="horario-item">Judô: 18:30</span>
+                        </div>
+                    </div>
+                    <div class="horario-dia">
+                        <h3>Quinta-feira</h3>
+                        <div class="horario-aulas">
+                            <span class="horario-item horario-destaque">Jiu-Jitsu No-Gi: 12:15</span>
+                            <span class="horario-item horario-destaque">Treino de Competição: 19:30</span>
+                        </div>
+                    </div>
+                    <div class="horario-dia">
+                        <h3>Sexta-feira</h3>
+                        <div class="horario-aulas">
+                            <span class="horario-item">Jiu-Jitsu: 06:10 | 12:15 | 16:00 | 19:40</span>
+                            <span class="horario-item horario-kids">Jiu-Jitsu Kids: 10:00</span>
+                            <span class="horario-item">Judô: 19:00</span>
+                        </div>
+                    </div>
+                    <div class="horario-dia">
+                        <h3>Sábado</h3>
+                        <div class="horario-aulas">
+                            <span class="horario-item horario-destaque">Treino Feminino: 15:00</span>
+                            <span class="horario-item">Open Mat / Treino Livre: 06:10</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="horario-info">
+                    <p><strong>Observação:</strong> Os horários podem variar. Entre em contato para confirmar.</p>
+                    <p>Turmas para iniciantes e avançados disponíveis.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Valores Section -->
+    <section id="valores" class="valores">
+        <div class="container">
+            <h2 class="section-title">Planos e Valores</h2>
+            
+            <!-- Jiu-Jitsu -->
+            <div class="modalidade-valores">
+                <h3 class="modalidade-valores-title">Jiu-Jitsu</h3>
+                <div class="planos-grid">
+                    <div class="plano-card">
+                        <div class="plano-header">
+                            <h3>Mensal</h3>
+                            <div class="plano-preco">
+                                <span class="preco-valor">R$ 110</span>
+                                <span class="preco-periodo">/mês</span>
+                            </div>
+                        </div>
+                        <div class="plano-body">
+                            <ul class="plano-beneficios">
+                                <li>✓ Aulas de Jiu-Jitsu</li>
+                                <li>✓ 3x por semana</li>
+                                <li>✓ Suporte dos instrutores</li>
+                            </ul>
+                            <a href="#contato" class="btn btn-outline">Escolher Plano</a>
+                        </div>
+                    </div>
+                    <div class="plano-card featured">
+                        
+                        <div class="plano-header">
+                            <h3>Trimestral</h3>
+                            <div class="plano-preco">
+                                <span class="preco-valor">R$ 330</span>
+                                <span class="preco-periodo">/trimestre</span>
+                            </div>
+                        </div>
+                        <div class="plano-body">
+                            <ul class="plano-beneficios">
+                                <li>✓ Aulas de Jiu-Jitsu</li>
+                                <li>✓ Treinos 3x na semana</li>
+                                <li>✓ Suporte prioritário</li>
+                                <li>✓ Aulas especiais</li>
+                            </ul>
+                            <a href="#contato" class="btn btn-primary">Escolher Plano</a>
+                        </div>
+                    </div>
+                    <div class="plano-card">
+                        <div class="plano-header">
+                            <h3>Semestral</h3>
+                            <div class="plano-preco">
+                                <span class="preco-valor">R$ 750</span>
+                                <span class="preco-periodo">/semestre</span>
+                            </div>
+                            <p class="plano-economia">Economize R$ 150</p>
+                        </div>
+                        <div class="plano-body">
+                            <ul class="plano-beneficios">
+                                <li>✓ Aulas de Jiu-Jitsu</li>
+                                <li>✓ Treinos 3x na semana</li>
+                               
+                                <li>✓ Suporte prioritário</li>
+                                <li>✓ Aulas especiais</li>
+                              
+                            </ul>
+                            <a href="#contato" class="btn btn-outline">Escolher Plano</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Judô -->
+            <div class="modalidade-valores">
+                <h3 class="modalidade-valores-title">Judô</h3>
+                <p class="modalidade-valores-nota"><em>O Judô é oferecido por professor independente, compartilhando o mesmo espaço da academia.</em></p>
+                <div class="planos-grid">
+                    <div class="plano-card">
+                        <div class="plano-header">
+                            <h3>Mensal</h3>
+                            <div class="plano-preco">
+                                <span class="preco-valor">R$ 140</span>
+                                <span class="preco-periodo">/mês</span>
+                            </div>
+                        </div>
+                        <div class="plano-body">
+                            <ul class="plano-beneficios">
+                                <li>✓ Aulas de Judô</li>
+                                <li>✓ 3x por semana</li>
+                                
+                                <li>✓ Suporte dos instrutores</li>
+                            </ul>
+                            <a href="#contato" class="btn btn-outline">Escolher Plano</a>
+                        </div>
+                    </div>
+                    <div class="plano-card featured">
+                        <div class="plano-badge">Mais Popular</div>
+                        <div class="plano-header">
+                            <h3>Trimestral</h3>
+                            <div class="plano-preco">
+                                <span class="preco-valor">R$ 380</span>
+                                <span class="preco-periodo">/trimestre</span>
+                            </div>
+                            <p class="plano-economia">Economize R$ 40</p>
+                        </div>
+                        <div class="plano-body">
+                            <ul class="plano-beneficios">
+                                <li>✓ Aulas de Judô</li>
+                                <li>✓ Treinos 3x na semana</li>
+                               
+                                <li>✓ Suporte prioritário</li>
+                                <li>✓ Aulas especiais</li>
+                            </ul>
+                            <a href="#contato" class="btn btn-primary">Escolher Plano</a>
+                        </div>
+                    </div>
+                    <div class="plano-card">
+                        <div class="plano-header">
+                            <h3>Semestral</h3>
+                            <div class="plano-preco">
+                                <span class="preco-valor">R$ 720</span>
+                                <span class="preco-periodo">/semestre</span>
+                            </div>
+                            <p class="plano-economia">Economize R$ 120</p>
+                        </div>
+                        <div class="plano-body">
+                            <ul class="plano-beneficios">
+                                <li>✓ Aulas de Judô</li>
+                                <li>✓ Treinos 3x na semana</li>
+                                <li>✓ Suporte prioritário</li>
+                                <li>✓ Aulas especiais</li>
+                              
+                            </ul>
+                            <a href="#contato" class="btn btn-outline">Escolher Plano</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="valores-info">
+                <p><strong>Aula Experimental:</strong> Primeira aula grátis para novos alunos!</p>
+                <p>Formas de pagamento: Dinheiro, PIX, Cartão de Crédito/Débito</p>
+                <p><strong>Nota:</strong> Os planos de Jiu-Jitsu e Judô são independentes. Entre em contato para mais informações sobre combos ou descontos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <h3>📍 Endereço</h3>
+                        <p> R. José Melo, 98<br>Iracema, Vitória da Conquista - Bahia<br>CEP: 45000-810</p>
+                    </div>
+                    <div class="contato-item">
+                        <h3>📞 Telefone</h3>
+                        <p>(77) 98814-5900<br></p>
+                    </div>
+                    <div class="contato-item">
+                        <h3>📧 E-mail</h3>
+                        <p>contato@academia.com.br</p>
+                    </div>
+                    <div class="contato-item">
+                        <h3>🕐 Horário de Atendimento</h3>
+                        <p>Segunda a Sexta: 06:00 - 22:00<br>Sábado: 08:00 - 13:00</p>
+                    </div>
+                </div>
+                <div class="contato-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="telefone" name="telefone" placeholder="Seu Telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Academia</h3>
+                    <p>Desenvolvendo atletas através da disciplina e respeito das artes marciais.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#professores">Professores</a></li>
+                        <li><a href="#modalidades">Modalidades</a></li>
+                        <li><a href="#horarios">Horários</a></li>
+                        <li><a href="#valores">Valores</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 HF Training Jiu-Jitsu e Judô. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
