@@ -1206,6 +1206,16 @@ html {
     height: 240px;
 }
 
+.produto-sem-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-cinza);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 .produto-image img {
     width: 100%;
     height: 100%;
